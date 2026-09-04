@@ -1,1 +1,7 @@
-body{background-color: gray;}
+body{background-color: lightcyan;}
+header{background-color: lightpink; height: 10%; border-radius: 8px; margin: 5px; padding: 5px;}
+nav{height: 5%; background-color: aquamarine; margin: 5px; padding: 5px}
+main{height: 70%;}
+article{height: 100%; background-color: lightgrey; width: 60%; float: left;}
+aside{height: 100%; background-color: lightblue; width: 40%; float: right;}
+footer{height: 15%; background-color: lightpink;}
