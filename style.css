@@ -15,6 +15,7 @@ nav{
     border-radius: 8px; 
     float: center; 
     margin-bottom: 12px;
+    text-align: center;
 }
 main{
     height: 70%; 
@@ -27,7 +28,6 @@ article{
     width: calc(40% - 18px); 
     float: left; 
     border-radius: 8px; 
-    text-align: center; 
     padding: 4px; 
 }
 aside{
@@ -43,4 +43,7 @@ footer{
     background-color: lightpink; 
     border-radius: 8px; 
     padding: 5px;
+}
+h1{
+    text-align:center; 
 }
