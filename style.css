@@ -36,7 +36,8 @@ aside{
     width: calc(60% - 18px); 
     float: right; 
     border-radius: 8px; 
-    padding: 4px;}
+    padding: 4px;
+}
 footer{
     height: 10%; 
     background-color: lightpink; 
