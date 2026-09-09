@@ -6,7 +6,7 @@ header{
     height: 10%; 
     border-radius: 8px; 
     padding: 5px; 
-    margin-bottom: 5px;
+    margin-bottom: 12px;
 }
 nav{
     height: 5%; 
@@ -14,31 +14,29 @@ nav{
     padding: 5px; 
     border-radius: 8px; 
     float: center; 
-    margin-bottom: 5px;
+    margin-bottom: 12px;
 }
 main{
     height: 70%; 
     border-radius: 8px; 
-    margin-top: 5px;
+    margin-bottom: 12px;
 }
 article{
-    height: 97.5%; 
+    height: calc(100% - 12px); 
     background-color: lightgrey; 
-    width: calc(40% - 16px); 
+    width: calc(40% - 18px); 
     float: left; 
     border-radius: 8px; 
     text-align: center; 
     padding: 4px; 
-    margin-right: 4px;
 }
 aside{
-    height: 97.5%; 
+    height: calc(100% - 12px); 
     background-color: lightblue; 
-    width: calc(60% - 12px); 
+    width: calc(60% - 18px); 
     float: right; 
     border-radius: 8px; 
-    padding: 4px; 
-    margin-left: 8px;}
+    padding: 4px;}
 footer{
     height: 10%; 
     background-color: lightpink; 
