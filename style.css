@@ -1,7 +1,47 @@
-body{background-color: lightcyan;}
-header{background-color: lightpink; height: 10%; border-radius: 8px; margin: 5px; padding: 5px;}
-nav{height: 5%; background-color: aquamarine; margin: 5px; padding: 5px}
-main{height: 70%;}
-article{height: 100%; background-color: lightgrey; width: 60%; float: left;}
-aside{height: 100%; background-color: lightblue; width: 40%; float: right;}
-footer{height: 15%; background-color: lightpink;}
+body{
+    background-color: lightcyan;
+}
+header{
+    background-color: lightpink;
+    height: 10%; 
+    border-radius: 8px; 
+    padding: 5px; 
+    margin-bottom: 5px;
+}
+nav{
+    height: 5%; 
+    background-color: aquamarine; 
+    padding: 5px; 
+    border-radius: 8px; 
+    float: center; 
+    margin-bottom: 5px;
+}
+main{
+    height: 70%; 
+    border-radius: 8px; 
+    margin-top: 5px;
+}
+article{
+    height: 97.5%; 
+    background-color: lightgrey; 
+    width: calc(40% - 16px); 
+    float: left; 
+    border-radius: 8px; 
+    text-align: center; 
+    padding: 4px; 
+    margin-right: 4px;
+}
+aside{
+    height: 97.5%; 
+    background-color: lightblue; 
+    width: calc(60% - 12px); 
+    float: right; 
+    border-radius: 8px; 
+    padding: 4px; 
+    margin-left: 8px;}
+footer{
+    height: 10%; 
+    background-color: lightpink; 
+    border-radius: 8px; 
+    padding: 5px;
+}
