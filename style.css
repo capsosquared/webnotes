@@ -3,20 +3,21 @@ body{
 }
 header{
     background-color: lightpink;
-    height: 10%; 
+    height: calc(10% - 9px); 
     border-radius: 8px; 
     padding: 5px; 
     margin-bottom: 12px;
     text-align: center;
 }
 nav{
-    height: 5%; 
+    height: 16px; 
     background-color: aquamarine; 
     padding: 5px; 
     border-radius: 8px; 
     float: center; 
     margin-bottom: 12px;
     text-align: center;
+    font-size: 16px;
 }
 main{
     height: 70%; 
@@ -41,12 +42,31 @@ aside{
     padding: 4px;
 }
 footer{
-    height: 10%; 
+    height: calc(10% - 9px); 
     background-color: lightpink; 
     border-radius: 8px; 
     padding: 5px;
     text-align: center;
 }
 h1{
-    text-align:center; 
+    text-align:center;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: lightgrey;
+    border-radius: 8px;
+    padding: 4px;
+    margin: -4px;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
 }
